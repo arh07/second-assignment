@@ -80,14 +80,24 @@ body {
 
 /* *************** Collection Start **************** */
 
+.popular-collection {
+    margin-bottom: 100px;
+}
+
 .popular-collection h1 {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+
 }
 
 .all-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 80px;
+    margin-bottom: 50px;
 }
 
 
@@ -95,9 +105,10 @@ body {
     width: 329px;
     height: 450px;
     box-shadow: 10px 10px 30px black;
-    padding-left: 10%;
+    padding-left: 9%;
     padding-top: 4%;
-    padding-bottom: 4%
+    padding-bottom: 4%;
+    border-radius: 10px;
 }
 
 
@@ -110,6 +121,8 @@ body {
 .images-info h3 {
     font-size: 28px;
     line-height: 20px;
+    color: #1C8D73;
+
 }
 
 .images-info .dollar {
@@ -147,4 +160,37 @@ span {
 .ratings {
     display: flex;
     align-items: center;
+}
+
+.image-more {
+
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    color: #1C8D73;
+}
+
+.image-more .arrow {
+    color: #1C8D73;
+}
+
+
+
+.footer-sec {
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+
+}
+
+.footer-info {
+    color: #1C8D73;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: bolder;
+}
+
+.footer-info .social-platform i {
+    padding: 5px;
 }
