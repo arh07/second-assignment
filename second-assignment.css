@@ -84,6 +84,12 @@ body {
     margin-bottom: 50px;
 }
 
+.all-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
 
 .images {
     width: 329px;
