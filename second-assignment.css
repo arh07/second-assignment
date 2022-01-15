@@ -402,6 +402,39 @@ span {
         width: 300px;
     }
 
+    .all-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        margin-right: 40px;
+    }
+
+    .images {
+        width: 300px;
+        padding-right: 20px;
+    }
+
+    /* .football {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+
+    .player img {
+        width: 100px;
+    }
+
+    .madrid {
+        width: 290px;
+        height: 250px;
+    }
+
+    .goal {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+
+
+
 
 
 
