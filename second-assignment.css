@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Inter&family=Open+Sans&family=Poppins:wght@500&family=Raleway:wght@500;700&family=Roboto+Condensed&family=Spline+Sans&display=swap');
+
+
+
+body {
+    font-family: 'Domine', serif;
+
+}
+
+/* *************** Influencer Start **************** */
+
+.main-header h3 {
+    margin-right: 950px;
+    margin-bottom: 135px;
+    font-size: 24px;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.influencer {
+    margin-bottom: 100px;
+}
+
+
+
+.influencer-left {
+    width: 587px;
+    height: 280px;
+
+}
+
+.influencer-left p {
+    font-size: 16px;
+}
+
+.influencer {
+    display: flex;
+}
+
+.influencer-left h1 {
+    line-height: 20px;
+    font-size: 52px;
+    /* letter-spacing: 0.010em; */
+}
+
+.influencer-left button {
+    background-color: #1C8D73;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 16px;
+
+}
+
+.influencer-right img {
+
+    width: 440px;
+    height: 414px;
+    position: relative;
+    margin-left: 128px;
+
+
+
+}
+
+/* *************** Influencer End **************** */
+
+
+/* *************** Collection Start **************** */
+
+.images-info {
+    width: 329px;
+    height: 476px;
+}
+
+.images-info img {
+    width: 300px;
+    height: 256px;
+}
+
+.images-info h3 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.images-info .dollar {
+    font-size: 24px;
+    line-height: 80%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.images-info .ratings {
+    color: #FB8200;
+    ;
+}
+
+.images-info p {
+    font-size: 14px;
+    line-height: 80%;
+    color: #787885;
+    font-weight: bold;
+
+
+
+}
+
+span {
+    color: #02B290;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.ratings i {
+    font-size: 10px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
