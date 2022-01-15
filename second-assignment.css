@@ -371,11 +371,39 @@ span {
 
 }
 
-@media (max-width:688px) and (max-width:992px) {
+@media (min-width:688px) and (max-width:992px) {
     .container {
         overflow: hidden;
     }
 
+    .main-header {
+        margin-left: 400px;
 
-    
+
+    }
+
+    .influencer-left h1 {
+        margin-left: 300px;
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .influencer-left p {
+        margin-left: 300px;
+        width: 50%;
+    }
+
+    .influencer-left button {
+        margin-left: 300px;
+    }
+
+    .influencer-right img {
+        margin-right: 300px;
+        width: 300px;
+    }
+
+
+
+
+
 }
