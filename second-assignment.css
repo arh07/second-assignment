@@ -9,6 +9,8 @@ body {
 
 /* *************** Influencer Start **************** */
 
+
+
 .main-header h3 {
     margin-right: 920px;
     margin-bottom: 135px;
@@ -61,7 +63,7 @@ body {
     border-radius: 30px;
     font-size: 16px;
     text-transform: uppercase;
-    box-shadow: 0 7px 0 #E83A59;
+    box-shadow: 0 7px 0 #3f3d3d;
     position: relative;
     margin-top: 16px;
     top: 0;
@@ -234,6 +236,8 @@ span {
 
 .goal {
     line-height: 70%;
+    color: #1C8D73;
+    font-weight: 100;
 }
 
 
