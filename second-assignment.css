@@ -80,25 +80,37 @@ body {
 
 /* *************** Collection Start **************** */
 
-.images-info {
-    width: 329px;
-    height: 476px;
+.popular-collection h1 {
+    margin-bottom: 50px;
 }
 
-.images-info img {
+
+.images {
+    width: 329px;
+    height: 450px;
+    box-shadow: 10px 10px 30px black;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+
+
+.collection-images img {
     width: 300px;
     height: 256px;
+
 }
 
 .images-info h3 {
     font-size: 28px;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .images-info .dollar {
     font-size: 24px;
-    line-height: 80%;
+    line-height: 10%;
     color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
 }
 
 .images-info .ratings {
@@ -108,7 +120,7 @@ body {
 
 .images-info p {
     font-size: 14px;
-    line-height: 80%;
+    line-height: 40%;
     color: #787885;
     font-weight: bold;
 
